@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <title>HTML 201</title>
+  <link rel="shortcut icon" href="images/favicons/goku_symbol.png" type="image/png">
+</head>
+
+<body>
+
+    <a href="http://website.com/">Go to website.com</a>
+
+    <h1 id="top">Welcome to HTML 201</h1>
+    <a href="#bottom">Scroll to the bottom of the page</a>
+
+    <p>
+      <span style="text-decoration: underline"> 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </span>
+        Id doloremque delectus reprehenderit quo sapiente, cumque est quas nesciunt laborum impedit sunt sequi ratione mollitia neque! Provident eos enim deleniti illo!
+    </p>
+
+<img src="images/New_York.jpg"  width=500 alt="New York">
+    
+<table border="1" width="100%">
+  <tr>  
+    <td>First Cell</td>
+    <td>Second Cell</td>
+  </tr>
+  <tr>
+    <td>Row 2, Cell 1</td>
+    <td>Row 2, Cell 2</td>
+  </tr>
+</table>
+
+<table border="1" width="100%">
+  <tbody>
+      <tr>
+        <td colspan="3">1</td>
+      </tr>
+      <tr>
+        <td rowspan="2">1</td>
+        <td colspan="2">2</td>
+        
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+  </tbody>
+</table>
+
+<table border="1" width="100%">
+    <tr>
+        <td colspan='2'>Welcome to my website</td>
+    </tr>
+    <tr>
+        <td width="20%">
+            <h3> Navigation </h3>
+        </td>
+       
+        <td>
+            <h3>Content</h3>
+        </td>
+    </tr>
+</table>
+<table border="1" width="100%">
+    <tr>
+        <th colspan='2'>Welcome to my website</th>
+    </tr>
+</table>
+
+<style>
+    .classNameHere{
+    padding: 40px; 
+    color: white; 
+    background-color: black;
+    }
+    .uppercase{
+        text-transform: uppercase;
+
+    }
+    #testingId{
+        border: 15px solid red;
+    }
+</style>
+
+
+<div class="classNameHere">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum consequatur repellat laboriosam ratione earum quae reprehenderit voluptates eligendi ipsam. In labore ipsa illo nesciunt libero facere ab eos voluptates corporis!
+</div>
+
+<div class="uppercase" id="testingId">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum consequatur repellat laboriosam ratione earum quae reprehenderit voluptates eligendi ipsam. In labore ipsa illo nesciunt libero facere ab eos voluptates corporis!
+</div>
+
+<div class="classNameHere uppercase">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum consequatur repellat laboriosam ratione earum quae reprehenderit voluptates eligendi ipsam. In labore ipsa illo nesciunt libero facere ab eos voluptates corporis!
+</div>
+
+    
+
+    <h3>Format code</h3>   
+    <pre>
+        some        stuff      here  &lt;b&gt;This is bold&lt;b&gt;
+        second      line       here
+    </pre>
+    <p>
+        &lt;b&gt;Lorem ipsum, dolor sit &lt;b&gt;amet consectetur adipisicing elit. Ex id at, labore, cumque officiis eum esse voluptas tempora doloribus eius aliquid repellat tenetur ab, cum unde fuga illum veritatis et?
+    </p>
+
+    <h3>Forms</h3>
+    <form>
+      <input required type="email" value="Hello World" placeholder="Enter your name">
+
+      <textarea required cols="30" rows="10" placeholder="wow a placeholder">text in heree
+        whitespace does matter
+      </textarea>
+
+      <button type="submit">click me</button>
+    </form>
+
+    <div>
+        <select name="selected_option">
+            <option value="" disabled="disabled">- Disabled -</option>
+            <option value="value 1">This is value 1</option>
+            <option value="value 1">This is value 1</option>
+            <option value="value 1">This is value 1</option>
+            <option value="value 1">This is value 1</option>
+            <option value="value 1">This is value 1</option>
+            <option value="value 1">This is value 1</option>
+        </select>
+    </div>
+
+    <h3>Embeds</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/t578G9Lyiec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+    <h3 id="bottom">This is the bottom of the page</h3>
+
+    <div id="bottom">
+        <a href="#top">Back to the top</a>
+        &copy;2023
+      </div>
+
+</body>
+
+</html>
